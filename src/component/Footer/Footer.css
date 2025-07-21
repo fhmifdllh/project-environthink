@@ -1,0 +1,35 @@
+:root {
+  --color-bg: #ffffff;
+  --color-main: #14ae5c;
+}
+
+.bg-main {
+  background-color: #14ae5c;
+}
+
+/* Footer */
+footer {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: var(--color-main);
+  padding-bottom: 0%;
+}
+
+.judulDeskripsiEnvironthink {
+  color: #25ff01 !important;
+}
+
+.deskripsiEnvironthink {
+  text-align: justify;
+}
+
+.container p {
+  color: white;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 576px) {
+  #medsos {
+    margin-top: 1em;
+  }
+}
